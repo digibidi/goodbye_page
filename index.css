@@ -1,10 +1,7 @@
-.body {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.container {
   font-family: arial;
   font-size: 24px;
   margin: 25px;
