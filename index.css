@@ -1,3 +1,9 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   font-family: arial;
   font-size: 24px;
