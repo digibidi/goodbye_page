@@ -12,9 +12,11 @@
   font-size: 24px;
   margin: 25px;
   width: 100%; /* Set to full width by default */
-  max-width: 350px; /* Maximum width for larger screens */
-  height: 200px;
+  max-width: 650px; /* Maximum width for larger screens */
+  /* height: 200px; */
   outline: dashed 1px black;
+  padding: 25px;
+  font-size: medium;
 }
 
 p {
