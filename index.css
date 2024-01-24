@@ -22,14 +22,18 @@
 p {
   /* Center horizontally */
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
 }
 
 /* Media query for desktop screens */
 @media (min-width: 768px) { /* Adjust this value if needed */
   .container {
     width: 50%; /* Half-width on desktop */
-    margin: 25px auto; /* Center the container */
+    margin: 15px auto; /* Center the container */
   }
 }
