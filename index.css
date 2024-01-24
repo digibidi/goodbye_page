@@ -1,6 +1,6 @@
 .page {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 .container {
@@ -10,12 +10,21 @@
   font-family: arial;
   font-size: 24px;
   margin: 25px;
-  width: 350px;
+  width: 100%; /* Set to full width by default */
+  max-width: 350px; /* Maximum width for larger screens */
   height: 200px;
   outline: dashed 1px black;
 }
 
 p {
-  /* Center horizontally*/
+  /* Center horizontally */
   text-align: center;
+}
+
+/* Media query for desktop screens */
+@media (min-width: 768px) { /* Adjust this value if needed */
+  .container {
+    width: 50%; /* Half-width on desktop */
+    margin: 25px auto; /* Center the container */
+  }
 }
