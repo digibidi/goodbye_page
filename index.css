@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column; /* Ensures the flex items are stacked vertically */
   font-family: arial;
   font-size: 24px;
   margin: 25px;
