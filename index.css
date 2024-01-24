@@ -14,7 +14,7 @@
   width: 100%; /* Set to full width by default */
   max-width: 650px; /* Maximum width for larger screens */
   /* height: 200px; */
-  outline: dashed 1px black;
+  /* outline: dashed 1px black; */
   /* padding: 25px; */
   font-size: medium;
 }
